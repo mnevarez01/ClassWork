@@ -1,0 +1,41 @@
+body {
+}
+
+h1 {
+  font-size: 70px;
+}
+
+p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#Fixed {
+  position: fixed;
+  padding: 30px;
+  background-color: lightgray;
+  top: 0;
+  left: 0;
+}
+.container {
+  width: 700px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#Relative {
+  position: relative;
+  padding: 30px;
+  background: lightgray;
+  text-align: center;
+  height: 20px;
+  height: 100px;
+}
+#Absolute {
+  position: absolute;
+  padding: 15px;
+  background: grey;
+  bottom: 0;
+  right: 10px;
+  text-align: center;
+}

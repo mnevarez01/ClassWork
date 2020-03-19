@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic HTML</title>
-</head>
-<body>
-<header> 
-    <h1>Student Bio</h1>
-</header>
-    
-<div>
- <h2>Maria Nevarez</h2>
+    <link rel="stylesheet" type="text/css" href="BasicHTML.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Student Bio</h1>
+    </header>
 
- <img src="https://pbs.twimg.com/profile_images/1219743066069905408/15m8Qvx1_400x400.jpg" alt="Cubs Fan">
+    <div class="container">
+      <section>
+        <h2>Maria Nevarez</h2>
 
-<p>I am from Waukegan, Illinois. I graduated from Aurora University with a Bachelor's degree in Criminal Justice and Psychology. My favorite color is Blue. I have one older brother who is married and has a daughter. I moved to Colorado three years ago and I would never move back. As you can see I am a cubs fan but NOT a Bears fan. 
-</p>
+        <img
+          id="bio-image"
+          src="https://pbs.twimg.com/profile_images/1219743066069905408/15m8Qvx1_400x400.jpg"
+          alt="Cubs Fan"
+        />
 
-<h2>Contact Information</h2>
-<ul>
-    <li><strong>Email:</strong> <a href="#"> mnevarez1220@gmail.com </a> </li>
-    <li><strong>Github:</strong> <a href="#">https://github.com/mnevarez01</a></li>
-    <li><strong>Portfolio</strong> <a href="#"> Coming Soon</a></li>
-</ul>
-</div>
+        <p id="main-bio">
+          I am from Waukegan, Illinois. I graduated from Aurora University with
+          a Bachelor's degree in Criminal Justice and Psychology. My favorite
+          color is Blue. I have one older brother who is married and has a
+          daughter. I moved to Colorado three years ago and I would never move
+          back. As you can see I am a cubs fan but NOT a Bears fan.
+        </p>
+      </section>
 
-
-</body>
+      <section id="contact-info">
+        <h2>Contact Information</h2>
+        <ul>
+          <li>
+            <strong>Email:</strong> <a href="#"> mnevarez1220@gmail.com </a>
+          </li>
+          <li>
+            <strong>Github:</strong>
+            <a href="#">https://github.com/mnevarez01</a>
+          </li>
+          <li><strong>Portfolio</strong> <a href="#"> Coming Soon</a></li>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
